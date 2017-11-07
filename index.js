@@ -1,5 +1,4 @@
-module.exports = function(time, format) {
-    var date = new Date(time);
+module.exports = function(date, format) {
     format = format.replace('Y', date.getFullYear());
     format = format.replace('y', date.getFullYear().toString().slice(-2));
     format = format.replace('m', date.getMonth() + 1);
