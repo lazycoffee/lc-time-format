@@ -1,10 +1,6 @@
 {
   "name": "lc-time-format",
-<<<<<<< HEAD
-  "version": "1.0.4",
-=======
-  "version": "1.0.2",
->>>>>>> d6552f825ca8ee979390260b8740f6e31366a35b
+  "version": "1.0.5",
   "description": "Format time to custom style",
   "main": "index.js",
   "scripts": {
@@ -23,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/lazycoffee/lc-time-format/issues"
   },
-  "homepage": "https://github.com/lazycoffee/lc-time-format#readme"
+  "homepage": "https://github.com/lazycoffee/lc-time-format#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
 }
