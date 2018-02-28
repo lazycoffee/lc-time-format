@@ -1,12 +1,13 @@
-module.exports = function(date, format) {
-    if(date instanceof Date === false){
-        if(typeof date === 'string'){
-            date = new Date(date);
-        }else{
-            throw new Error('Please apply a valid argument.');
-        }
+"use strict";
+module.exports = function (time, format) {
+    var date;
+    if (typeof time === 'string') {
+        date = new Date(time);
     }
-    format = format.replace('Y', date.getFullYear());
+    else {
+        date = time;
+    }
+    format = format.replace('Y', date.getFullYear().toString());
     format = format.replace('y', date.getFullYear().toString().slice(-2));
     format = format.replace('m', date.getMonth() + 1 + '');
     format = format.replace('M', (date.getMonth() > 8 ? date.getMonth() + 1 : '0' + (date.getMonth() + 1)) + '');
@@ -20,4 +21,3 @@ module.exports = function(date, format) {
     format = format.replace('s', date.getSeconds().toString());
     return format;
 };
-//# sourceMappingURL=index.js.map

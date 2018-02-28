@@ -1,5 +1,10 @@
-export = function(time:Date, format:string):string {
-    let date = new Date(time);
+export = function(time:Date|string, format:string):string {
+    let date:Date;
+    if(typeof time === 'string'){
+        date = new Date(time);
+    }else{
+        date = time;
+    }
     format = format.replace('Y', date.getFullYear().toString());
     format = format.replace('y', date.getFullYear().toString().slice(-2));
     format = format.replace('m', date.getMonth() + 1 + '');
