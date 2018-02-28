@@ -1,6 +1,6 @@
 {
   "name": "lc-time-format",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Format time to custom style",
   "main": "index.js",
   "scripts": {
