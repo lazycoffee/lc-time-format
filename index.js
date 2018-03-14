@@ -1,5 +1,6 @@
 "use strict";
 module.exports = function (time, format) {
+    console.log('test');
     var date;
     if (typeof time === 'string') {
         date = new Date(time);
@@ -21,3 +22,4 @@ module.exports = function (time, format) {
     format = format.replace('s', date.getSeconds().toString());
     return format;
 };
+//# sourceMappingURL=index.js.map

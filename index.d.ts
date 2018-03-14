@@ -1,2 +1,2 @@
-declare var _default: (time: Date, format: string) => string;
+declare const _default: (time: string | Date, format: string) => string;
 export = _default;

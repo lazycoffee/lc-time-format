@@ -4,7 +4,8 @@
   "description": "Format time to custom style",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "./node_modules/.bin/tsc"
   },
   "repository": {
     "type": "git",
