@@ -1,5 +1,5 @@
 var assert = require('assert');
-var timeFormat = require('../index');
+var timeFormat = require('../index').default;
 
 describe('time format', function() {
     // test time 1

@@ -1,6 +1,6 @@
 {
   "name": "lc-time-format",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Format time to custom style",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/lazycoffee/lc-time-format#readme",
   "devDependencies": {
+    "@types/node": "^12.12.9",
     "mocha": "^6.2.2",
     "typescript": "^3.7.2"
   }

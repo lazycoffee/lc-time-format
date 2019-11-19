@@ -1,6 +1,6 @@
 "use strict";
-module.exports = function (time, format) {
-    console.log('test');
+Object.defineProperty(exports, "__esModule", { value: true });
+var timeFormat = function (time, format) {
     var date;
     if (typeof time === 'string') {
         date = new Date(time);
@@ -22,4 +22,5 @@ module.exports = function (time, format) {
     format = format.replace('s', date.getSeconds().toString());
     return format;
 };
+exports.default = timeFormat;
 //# sourceMappingURL=index.js.map
