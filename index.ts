@@ -1,4 +1,4 @@
-export = function(time:Date|string, format:string):string {
+const timeFormat = function(time:Date|string, format:string):string {
     let date:Date;
     if(typeof time === 'string'){
         date = new Date(time);
@@ -19,3 +19,5 @@ export = function(time:Date|string, format:string):string {
     format = format.replace('s', date.getSeconds().toString());
     return format;
 };
+
+export default timeFormat;

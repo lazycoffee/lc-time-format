@@ -1,11 +1,11 @@
 {
   "name": "lc-time-format",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Format time to custom style",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "build": "./node_modules/.bin/tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
