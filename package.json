@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/lazycoffee/lc-time-format#readme",
   "devDependencies": {
-    "mocha": "^4.0.1",
-    "typescript": "^2.7.2"
+    "mocha": "^6.2.2",
+    "typescript": "^3.7.2"
   }
 }
