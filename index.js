@@ -24,5 +24,5 @@ const timeFormat = function (time, format) {
     format = format.replace('s', date.getSeconds().toString());
     return format;
 };
-export default timeFormat;
+module.exports = timeFormat;
 //# sourceMappingURL=index.js.map

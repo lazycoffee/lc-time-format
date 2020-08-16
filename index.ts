@@ -39,4 +39,4 @@ const timeFormat = function (time: Date | string, format: string): string {
     return format;
 };
 
-export default timeFormat;
+module.exports = timeFormat;

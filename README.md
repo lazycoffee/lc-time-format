@@ -39,10 +39,6 @@ S -> 07
 s -> 7
 ```
 
-## Notice
-
-Do not support commonJs anymore.
-
 ## License
 
 MIT
